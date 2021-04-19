@@ -16,5 +16,7 @@ $ cd /tmp
 $ wget https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/blob/main/VB6.0-KB290887-X86.exe?raw=true
 $ mv VB6.0-KB290887-X86.exe\?raw\=true VB6.0-KB290887-X86.exe
 $ wine VB6.0-KB290887-X86.exe #extraer en C:\tmp
+$ cd ~/.wine/drive_c/tmp/
+$ wine vbrun60sp6.exe
 ```
 
