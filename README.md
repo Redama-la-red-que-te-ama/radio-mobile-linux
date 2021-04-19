@@ -7,16 +7,34 @@ Nuestro fin es aportar en [comisión de mercado de telecomunicaciones](https://w
 
 #### Instalación 
 
-Seguir los mandos y tener claro que el fichero de [Visual Basic](https://es.wikipedia.org/wiki/Visual_Basic) 6 tiene que ser extraído en la carpeta `tmp` en la raíz del disco C de windows emulado por [wine](https://www.winehq.org/). 
+Seguir los mandos para instalar:
+
+- [winetricks](https://github.com/redeltaglio/winetricks)
+- [Visual Basic Runtime (Service pack 6)](https://www.microsoft.com/es-ES/download/details.aspx?id=24417)
+
+Crear la jerarquía del sistema de archivos y descargar los archivos comprimidos de Radio Mobile.
 
 ```shell
 $ sudo apt install wine64
 $ cd ~/.wine/drive_c && mkdir tmp
 $ cd /tmp
-$ wget https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/blob/main/VB6.0-KB290887-X86.exe?raw=true
-$ mv VB6.0-KB290887-X86.exe\?raw\=true VB6.0-KB290887-X86.exe
-$ wine VB6.0-KB290887-X86.exe #extraer en C:\tmp
-$ cd ~/.wine/drive_c/tmp/
-$ wine vbrun60sp6.exe
+$ wget "https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks"
+$ chmod +x winetricks
+$ ./winetricks vb6run
+$ mkdir -p ~/.wine/drive_c/Radio_Mobile/Geodata/{srtm3,srtm1,srtmthird,Landcover,OpenStreetMap,Terraserver,Toporama}
+$ cd ~/.wine/drive_c/Radio_Mobile
+$ wget https://www.ve2dbe.com/download/rmwcore.zip
+$ unzip rmwcore.zip
+$ wget https://www.ve2dbe.com/download/rmw1166spa.zip
+$ unzip rmw1166spa.zip
+$ wget https://www.ve2dbe.com/download/wmap.zip
+
 ```
 
+#### Configuración 
+
+
+
+Gracias por tu tiempo,
+
+Riccardo `<taglio>` Giuntoli.
