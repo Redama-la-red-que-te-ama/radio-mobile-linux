@@ -5,3 +5,11 @@ Una guía sobre como instalar y utilizar el software por excelencia de planifica
 
 Nuestro fin es aportar en [comisión de mercado de telecomunicaciones](https://www.cnmc.es/) un proyecto para pedir la alta en el [registro de operadores en España](https://numeracionyoperadores.cnmc.es/operadores). Del cual tenemos una copia también en nuestro repositorio descargadle en formado [`zip`](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/blob/main/rosce.zip?raw=true) o [`csv`](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/blob/main/rosce.csv?raw=true). 
 
+#### Instalación 
+
+```shell
+$ sudo apt install wine64
+$ cd /tmp
+$ 
+```
+
