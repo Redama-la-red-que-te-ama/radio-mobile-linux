@@ -1,0 +1,42 @@
+#!/bin/ksh
+
+set -o errexit
+set -o nounset
+
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/root/Bin
+UID=$(id -u)
+WWWROOT="/var/www/htdocs"
+publicip=$(ifconfig egress | grep inet |grep -v inet6 | cut -d ' ' -f2)
+
+if [[ $UID -ne 0 ]]; then
+	print $0 "you've got to run $0 as UID=0 \n"
+	exit 1
+fi
+
+if [ ! -d "$WWWROOT/geodata.telecom.lobby" ]; then 
+	mkdir "$WWWROOT/geodata.telecom.lobby"
+fi
+
+ctrl=
+while [ -z $ctrl ]
+do
+	echo -n "Do you want to download SRTM data?"
+	read ctrl
+	case $ctrl in
+		"yes")
+			wget --mirror --convert-links --adjust-extension --page-requisites  --no-parent  --user-agent="Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0" https://srtm.kurviger.de/
+			mv srtm.kurvinger.de/* . && rm -rf srtm.kurvinger.de
+			;;
+		"no")
+			;;
+		*) 
+			echo -n "please type yes or no"
+			exit 1
+			;;  
+done
+
+sed -i "s/\/PUBLICIP\//$publicip/g" src/etc/httpd.conf.gedotada.telecom.lobby
+install -o root -g wheel -m 0640 -b src/etc/httpd.conf.gedotada.telecom.lobby /etc/
+
+
+
