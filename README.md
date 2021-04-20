@@ -59,7 +59,17 @@ Las páginas web de las cuales he creado respaldos son:
 - [Index of /srtm/version2_1](https://srtm.kurviger.de/)
 - [Index of /files/raw-data/land-use/USGS_LCI/](https://data.mint.isi.edu/files/raw-data/land-use/USGS_LCI/)
 
-Otra parte importante para hacer funcionar correctamente Radio Mobile con el fin de producir proyectos de cobertura de radio útiles a la alta en el registro de operadores de telecomunicaciones es la gestión de los ficheros `.ant`
+Otra parte importante para hacer funcionar correctamente Radio Mobile con el fin de producir proyectos de cobertura de radio útiles a la alta en el registro de operadores de telecomunicaciones es la gestión de los ficheros `.ant`.
+
+Siendo mi proyecto la creación de un proveedor de servicios IP utilizando el fabricante americano [Ubiquiti](http://ui.com/) junto a seguridad de perímetro garantizada gracias al utilizo del sistema operativo [OpenBSD](https://www.openbsd.org/) dichos ficheros pertenecen a los productos [Airmax](https://operator.ui.com/). 
+
+```shell
+$ cd ~/.wine/drive_c/Radio_Mobile/antenna
+$ wget https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/antenna.tar
+$ tar xvf antenna.tar && mv antenna/* . && rm -rf antenna/
+```
+
+
 
 Gracias por tu tiempo,
 
