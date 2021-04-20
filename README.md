@@ -15,12 +15,15 @@ Seguir los mandos para instalar:
 Crear la jerarquía del sistema de archivos y descargar los archivos comprimidos de Radio Mobile.
 
 ```shell
-$ sudo apt install wine64
+$ sudo apt install wine64 cabextract wine64-preloader
+$ cd /usr/bin
+$ find . -name "wine*" | xargs -I {} readlink -f {} | xargs -I {} sudo setcap cap_net_raw+epi {}
 $ cd ~/.wine/drive_c && mkdir tmp
 $ cd /tmp
 $ wget "https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks"
 $ chmod +x winetricks
 $ ./winetricks vb6run
+$ ./winetricks winhttp
 $ mkdir -p ~/.wine/drive_c/Radio_Mobile/Geodata/{srtm3,srtm1,srtmthird,Landcover,OpenStreetMap,Terraserver,Toporama}
 $ cd ~/.wine/drive_c/Radio_Mobile
 $ wget https://www.ve2dbe.com/download/rmwcore.zip
@@ -28,6 +31,7 @@ $ unzip rmwcore.zip
 $ wget https://www.ve2dbe.com/download/rmw1166spa.zip
 $ unzip rmw1166spa.zip
 $ wget https://www.ve2dbe.com/download/wmap.zip
+$ unzip wmap.zip
 
 ```
 
@@ -79,6 +83,11 @@ Teniendo en cuenta que se trata de una herramienta que tenemos que utilizar para
 
 Una manera fácil de encontrar las [coordenadas geográficas](https://es.wikipedia.org/wiki/Coordenadas_geogr%C3%A1ficas) es utilizar Google Earth que se puede descargar por Linux en https://www.google.com/intl/en_in/earth/versions/#download-pro. 
 
+Apuntamos los puntos mínimos y máximos de la península ibérica que será nuestro campo de juego para la venta de Internet:
+
+- Latitud 35, 43
+- Longitud 3, 9
+
 ![](https://redama.es/google_earth_latlong.png)	
 
 Teclear la dirección en el programa, utilizar un marcador para individuar el punto exacto, marcador cuyas propiedades nos brindaran latitud y longitud. 
@@ -111,7 +120,7 @@ Podemos apreciar la conversión automática de latitud y longitud en [sistema de
 - LONG: 1°46'21.26"E
 - ALT: 20 metros.
 - UTM: 41.25821 , 1.738845
-- QRA: KN01UG
+- QRA: JN01UG
 
 **MONTGROS-SX**
 
