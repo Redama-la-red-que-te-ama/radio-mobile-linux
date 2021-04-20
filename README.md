@@ -89,6 +89,9 @@ En mi caso:
   - LAT: 41°15'29.56"N 
   - LONG: 1°46'21.26"E
   - ALT: 20 metros.
+
+
+
 - MONTGROS-SX
   - LAT:  41°16'4.18"N
   - LONG: 1°44'19.84"E
@@ -108,6 +111,9 @@ Podemos apreciar la conversión automática de latitud y longitud en [sistema de
   - ALT: 20 metros.
   - UTM: 41.25821 , 1.738845
   - QRA: KN01UG
+
+
+
 - MONTGROS-SX
   - LAT:  41°16'4.18"N
   - LONG: 1°44'19.84"E
