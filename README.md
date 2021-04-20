@@ -88,6 +88,39 @@ En mi caso:
 -  RIBES-CENTRO
   - LAT: 41°15'29.56"N 
   - LONG: 1°46'21.26"E
+  - ALT: 20 metros.
+- MONTGROS-SX
+  - LAT:  41°16'4.18"N
+  - LONG: 1°44'19.84"E
+  - ALT: 13 metros.
+
+Posicionamos en Radio Mobile los dos centros de transmisión.
+
+![](https://redama.es/Imagenes/radio_mobile_unidades.png)
+
+
+
+Podemos apreciar la conversión automática de latitud y longitud en [sistema de coordenadas universal transversal de Mercator](https://es.wikipedia.org/wiki/Sistema_de_coordenadas_universal_transversal_de_Mercator) como además referencia al antiguo sistema de posicionamiento utilizado por radio aficionados [QRA](https://en.wikipedia.org/wiki/QRA_locator). Así que tomamos nota en nuestros puntos de presencia:
+
+-  RIBES-CENTRO
+  - LAT: 41°15'29.56"N 
+  - LONG: 1°46'21.26"E
+  - ALT: 20 metros.
+  - UTM: 41.25821 , 1.738845
+  - QRA: KN01UG
+- MONTGROS-SX
+  - LAT:  41°16'4.18"N
+  - LONG: 1°44'19.84"E
+  - ALT: 13 metros.
+  - UTM: 41.26783 , 1.766622
+  - QRA: JN01VG
+
+Después de tomar nota de los puntos de transmisión añadir los transmisores utilizados que en practica son el conjunto de radio + antena y su enfoque. A casa punto de presencia corresponderán varios sistemas con diferente enfoque. 
+
+En mi caso:
+
+- RIBES-CENTRO
+  - BR-01-RKM5 
 
 Gracias por tu tiempo,
 
