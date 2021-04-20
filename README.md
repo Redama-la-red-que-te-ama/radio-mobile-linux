@@ -63,15 +63,6 @@ Las páginas web de las cuales he creado respaldos son:
 
 Para configurar un server OpenBSD web que funcione en dominio de red local utilices `setup_geodatawww` en un sistema OpenBSD.
 
-Para Land Cover descargar el fichero LCType.tif en:
-
-```shell
-$ cd .wine/drive_c/Radio_Mobile/Geodata/Landcover
-$ wget http://geodata.telecom.lobby/Land_Cover/LCType.tif
-```
-
-
-
 Otra parte importante para hacer funcionar correctamente Radio Mobile con el fin de producir proyectos de cobertura de radio útiles a la alta en el registro de operadores de telecomunicaciones es la gestión de los ficheros `.ant`.
 
 Siendo mi proyecto la creación de un proveedor de servicios IP utilizando el fabricante americano [Ubiquiti](http://ui.com/) junto a seguridad de perímetro garantizada gracias al utilizo del sistema operativo [OpenBSD](https://www.openbsd.org/) dichos ficheros pertenecen a los productos [Airmax](https://operator.ui.com/). 
@@ -82,7 +73,21 @@ $ wget https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/a
 $ tar xvf antenna.tar && mv antenna/* . && rm -rf antenna/
 ```
 
+#### Utilizo 
 
+Teniendo en cuenta que se trata de una herramienta que tenemos que utilizar para confeccionar un proyecto para la Comisión de Mercado de Telecomunicaciones que utilizaremos para diseñar el despliegue de nuestra red inalámbrica con fines de explotación del espectro electromagnético para el transporte IP y la conexión a Internet tomamos nota de los varios puntos geográficos y de la altura donde tenemos instalados nuestros dispositivos. 
+
+Una manera fácil de encontrar las [coordenadas geográficas](https://es.wikipedia.org/wiki/Coordenadas_geogr%C3%A1ficas) es utilizar Google Earth que se puede descargar por Linux en https://www.google.com/intl/en_in/earth/versions/#download-pro. 
+
+![](https://redama.es/google_earth_latlong.png)	
+
+Teclear la dirección en el programa, utilizar un marcador para individuar el punto exacto, marcador cuyas propiedades nos brindaran latitud y longitud. 
+
+En mi caso:
+
+-  RIBES-CENTRO
+  - LAT: 41°15'29.56"N 
+  - LONG: 1°46'21.26"E
 
 Gracias por tu tiempo,
 
