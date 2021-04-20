@@ -59,6 +59,8 @@ Las páginas web de las cuales he creado respaldos son:
 - [Index of /srtm/version2_1](https://srtm.kurviger.de/)
 - [Index of /files/raw-data/land-use/USGS_LCI/](https://data.mint.isi.edu/files/raw-data/land-use/USGS_LCI/)
 
+Para configurar un server OpenBSD web que funcione en dominio de red local utilices `setup_geodatawww` en un sistema OpenBSD.
+
 Otra parte importante para hacer funcionar correctamente Radio Mobile con el fin de producir proyectos de cobertura de radio útiles a la alta en el registro de operadores de telecomunicaciones es la gestión de los ficheros `.ant`.
 
 Siendo mi proyecto la creación de un proveedor de servicios IP utilizando el fabricante americano [Ubiquiti](http://ui.com/) junto a seguridad de perímetro garantizada gracias al utilizo del sistema operativo [OpenBSD](https://www.openbsd.org/) dichos ficheros pertenecen a los productos [Airmax](https://operator.ui.com/). 

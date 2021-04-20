@@ -1,0 +1,8 @@
+server "geodata.telecom.lobby" {
+	listen on /PUBLICIP/ port 80
+        root "htdocs/geodata.telecom.lobby"
+        location "/*" {
+                directory auto index
+        }
+}
+
