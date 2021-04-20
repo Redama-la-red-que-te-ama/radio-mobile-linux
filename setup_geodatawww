@@ -17,6 +17,7 @@ if [ ! -d "$WWWROOT/geodata.telecom.lobby" ]; then
 	mkdir "$WWWROOT/geodata.telecom.lobby"
 fi
 
+cd "$WWWROOT/geodata.telecom.lobby"
 ctrl=
 while [ -z $ctrl ]
 do
@@ -26,6 +27,15 @@ do
 		"yes")
 			wget --mirror --convert-links --adjust-extension --page-requisites  --no-parent  --user-agent="Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0" https://srtm.kurviger.de/
 			mv srtm.kurvinger.de/* . && rm -rf srtm.kurvinger.de
+			cd SRTM1
+			find . -name "*.zip" | xargs -I {} mv {} .
+			find . -not -name "*.zip" | xargs -I {} rm -rf {} 
+			cd SRTM3
+			find . -name "*.zip" | xargs -I {} mv {} .
+			find . -not -name "*.zip" | xargs -I {} rm -rf {} 
+			mkdir Landcover && cd Landcover
+			wget http://rmw.recordist.com/landcover/
+			cat index.html | grep -io '<a href=['"'"'"][^"'"'"']*['"'"'"]' | sed 's/<a href="/rmw.recordist.com\/landcover\//' | sed 's/"//' | awk -F, '$1 ~ "zip"' | xargs -I {} wget {}
 			;;
 		"no")
 			;;
@@ -35,14 +45,16 @@ do
 			;;  
 done
 
-sed -i "s/\/PUBLICIP\//$publicip/g" src/etc/httpd.conf.gedotada.telecom.lobby
-install -o root -g wheel -m 0640 -b src/etc/httpd.conf.gedotada.telecom.lobby /etc/
+sed -i "s/\/PUBLICIP\//$publicip/g" src/etc/httpd.conf.geodata.telecom.lobby
+install -o root -g wheel -m 0640 -b src/etc/httpd.conf.geodata.telecom.lobby /etc/
 
 if [ -e "/etc/httpd.conf" ]; then 
-	echo 'include "/etc/httpd.conf.gedotada.telecom.lobby" >> /etc/httpd.conf'
+	echo 'include "/etc/httpd.conf.geodata.telecom.lobby"' >> /etc/httpd.conf
 	rcctl restart httpd
 else
 	install -o root -g wheel -m 0640 -b src/etc/httpd.conf /etc/
 	install -o root -g wheel -m 0640 -b src/etc/httpd.conf.mime.types /etc/
+	rcctl enable httpd
+	rcctl start httpd
 fi
 

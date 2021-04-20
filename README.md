@@ -48,6 +48,8 @@ Configuramos las carpetas en las cuales nuestro programa tiene que buscar los fi
 - [OpenStreetMap](https://es.wikipedia.org/wiki/OpenStreetMap), un proyecto libre para crear mapas editables.
 - [Toporama](https://atlas.gc.ca/toporama/en/index.html) otros proyecto de topografía desde satélite que detalla Canada y [España](http://www.toporama.es/web/) entra otros. 
 
+![](http://redama.es/geodata_radio_mobile.png)
+
 Estos datos no son simples de encontrar en la web debido a que muchos usuarios los han embebidos dentro de aplicaciones web de consulta ad hoc.
 
 He hecho algunos respaldos en el mismo servidor de gestión de certificados activo en mi red privada `telecom.lobby` con el fin de tener los datos directamente en mi red local y no tener que descargarlos cada vez que sean necesarios. La configuración se encuentra en mi repositorio:
@@ -60,6 +62,15 @@ Las páginas web de las cuales he creado respaldos son:
 - [Index of /files/raw-data/land-use/USGS_LCI/](https://data.mint.isi.edu/files/raw-data/land-use/USGS_LCI/)
 
 Para configurar un server OpenBSD web que funcione en dominio de red local utilices `setup_geodatawww` en un sistema OpenBSD.
+
+Para Land Cover descargar el fichero LCType.tif en:
+
+```shell
+$ cd .wine/drive_c/Radio_Mobile/Geodata/Landcover
+$ wget http://geodata.telecom.lobby/Land_Cover/LCType.tif
+```
+
+
 
 Otra parte importante para hacer funcionar correctamente Radio Mobile con el fin de producir proyectos de cobertura de radio útiles a la alta en el registro de operadores de telecomunicaciones es la gestión de los ficheros `.ant`.
 
