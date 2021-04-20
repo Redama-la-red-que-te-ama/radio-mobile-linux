@@ -38,5 +38,11 @@ done
 sed -i "s/\/PUBLICIP\//$publicip/g" src/etc/httpd.conf.gedotada.telecom.lobby
 install -o root -g wheel -m 0640 -b src/etc/httpd.conf.gedotada.telecom.lobby /etc/
 
-
+if [ -e "/etc/httpd.conf" ]; then 
+	echo 'include "/etc/httpd.conf.gedotada.telecom.lobby" >> /etc/httpd.conf'
+	rcctl restart httpd
+else
+	install -o root -g wheel -m 0640 -b src/etc/httpd.conf /etc/
+	install -o root -g wheel -m 0640 -b src/etc/httpd.conf.mime.types /etc/
+fi
 
