@@ -93,8 +93,8 @@ do
 				file=$(basename $filepath) 
 				nordwest=$(echo $file | sed -e "/S/d" -e "/E/d")
 				if [[ ! -z $nordwest ]]; then
-					typeset -i lat=$(echo $nordwest | sed -e "s/.*N//g" -e "s/W.*//g")
-					typeset -i long=$(echo $nordwest | sed -e "s/.*W//g" -e "s/\..*//g")
+					typeset -LZ lat=$(echo $nordwest | sed -e "s/.*N//g" -e "s/W.*//g")
+					typeset -LZ long=$(echo $nordwest | sed -e "s/.*W//g" -e "s/\..*//g")
 					if [[ $lat -ge 35 && $lat -le 43 && $long -ge 0 && $long -le 9 ]]; then
 						if [[ "$filepath" == SRTM3* ]]; then
 							cp $filepath "$TMPDIR/SRTM3"
@@ -105,8 +105,8 @@ do
 				fi
 				nordeast=$(echo $file | sed -e "/S/d" -e "/W/d")
 				if [[ ! -z $nordeast ]]; then
-					typeset -i lat=$(echo $nordeast | sed -e "s/.*N//g" -e "s/E.*//g")
-					typeset -i long=$(echo $nordeast | sed -e "s/.*E//g" -e "s/\..*//g")
+					typeset -LZ lat=$(echo $nordeast | sed -e "s/.*N//g" -e "s/E.*//g")
+					typeset -LZ long=$(echo $nordeast | sed -e "s/.*E//g" -e "s/\..*//g")
 					if [[ $lat -ge 35 && $lat -le 43 && $long -ge 0 && $long -le 3 ]]; then
 						if [[ "$filepath" == SRTM3* ]]; then
 							cp $filepath "$TMPDIR/SRTM3"
