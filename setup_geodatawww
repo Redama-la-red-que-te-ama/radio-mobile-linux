@@ -90,7 +90,7 @@ do
 			nordeast=
 			cd "$WWWROOT/geodata.telecom.lobby"
 			for filepath in */*; do
-				file=$(basename "$filepath") 
+				file=$(basename $filepath) 
 				nordwest=$(echo $file | grep -v "S" | grep -v "E")
 				if [[ ! -z $nordwest ]]; then
 					typeset -i lat=$(echo $nordwest | sed -e "s/.*N//g" -e "s/W.*//g")
