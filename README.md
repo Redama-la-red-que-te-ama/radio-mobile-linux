@@ -52,6 +52,8 @@ Configuramos las carpetas en las cuales nuestro programa tiene que buscar los fi
 - [OpenStreetMap](https://es.wikipedia.org/wiki/OpenStreetMap), un proyecto libre para crear mapas editables.
 - [Toporama](https://atlas.gc.ca/toporama/en/index.html) otros proyecto de topografía desde satélite que detalla Canada y [España](http://www.toporama.es/web/) entra otros. 
 
+Muy lamentablemente bajo `wine` Radio Mobile no puede descargar ningún tipo de fichero de información geográfica como tampoco actualización desde Internet.
+
 ![](http://redama.es/geodata_radio_mobile.png)
 
 Estos datos no son simples de encontrar en la web debido a que muchos usuarios los han embebidos dentro de aplicaciones web de consulta ad hoc.
@@ -65,7 +67,7 @@ Las páginas web de las cuales he creado respaldos son:
 - [Index of /srtm/version2_1](https://srtm.kurviger.de/)
 - [Index of /files/raw-data/land-use/USGS_LCI/](https://data.mint.isi.edu/files/raw-data/land-use/USGS_LCI/)
 
-Para configurar un server OpenBSD web que funcione en dominio de red local utilices `setup_geodatawww` en un sistema OpenBSD.
+Para configurar un server OpenBSD web que funcione en dominio de red local utilices `setup_geodatawww` en un sistema OpenBSD. Dentro de el directorio ráiz del servidor web configurado
 
 Otra parte importante para hacer funcionar correctamente Radio Mobile con el fin de producir proyectos de cobertura de radio útiles a la alta en el registro de operadores de telecomunicaciones es la gestión de los ficheros `.ant`.
 
@@ -85,8 +87,8 @@ Una manera fácil de encontrar las [coordenadas geográficas](https://es.wikiped
 
 Apuntamos los puntos mínimos y máximos de la península ibérica que será nuestro campo de juego para la venta de Internet:
 
-- Latitud 35, 43
-- Longitud 3, 9
+- Latitud 35, 43 N
+- Longitud 0, 3 E - 0 , 9 W
 
 ![](https://redama.es/google_earth_latlong.png)	
 
@@ -109,8 +111,6 @@ En mi caso:
 Posicionamos en Radio Mobile los dos centros de transmisión.
 
 ![](https://redama.es/Imagenes/radio_mobile_unidades.png)
-
-
 
 Podemos apreciar la conversión automática de latitud y longitud en [sistema de coordenadas universal transversal de Mercator](https://es.wikipedia.org/wiki/Sistema_de_coordenadas_universal_transversal_de_Mercator) como además referencia al antiguo sistema de posicionamiento utilizado por radio aficionados [QRA](https://en.wikipedia.org/wiki/QRA_locator). Así que tomamos nota en nuestros puntos de presencia:
 
