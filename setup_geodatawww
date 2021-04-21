@@ -27,8 +27,9 @@ while [ -z $iso3166 ]
 do
 	echo -n "Type the country code ISO 3166 "
 	read iso3166
+	$iso3166=$(echo $iso3166 | tr '[:lower:]' '[:upper:]')
 	case $iso3166 in
-		[eE][sS]) 
+		"ES") 
 			if [[ ! -d "$WWWROOT/geodata.telecom.lobby/$iso3166" ]]; then
 				mkdir "$WWWROOT/geodata.telecom.lobby/$iso3166"
 			fi
