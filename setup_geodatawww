@@ -24,7 +24,7 @@ cd "$WWWROOT/geodata.telecom.lobby"
 ctrl=
 while [ -z $ctrl ]
 do
-	echo -n "Do you want to download SRTM data?"
+	echo -n "Do you want to download SRTM data? "
 	read ctrl
 	case $ctrl in
 		"yes")
@@ -53,7 +53,7 @@ done
 iso3166=
 while [ -z $iso3166 ]
 do
-	echo -n "Type the country code ISO 3166 \n"
+	echo -n "Type the country code ISO 3166 "
 	read iso3166
 	case $iso3166 in
 		"ES") 
@@ -72,7 +72,7 @@ ctrl=
 while [ -z $ctrl ]
 do
 	echo -n "Do you want to download SRTM and Land coverdata? \
-		\nbe careful they are more that 10GB\n"
+		\nbe careful they are more that 10GB "
 	read ctrl
 	case $ctrl in
 		"yes")
@@ -100,7 +100,7 @@ ctrl=
 while [ -z $ctrl ]
 do
 	echo -n "Do you want to select SRTM and Land cover data \
-		\nby country code?\n"
+		\nby country code? "
 	read ctrl
 	case $ctrl in
 		"yes")
