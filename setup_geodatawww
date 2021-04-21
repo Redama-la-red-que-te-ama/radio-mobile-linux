@@ -119,12 +119,10 @@ do
 					fi
 				fi
 				if [[ ! -z $nordwest && ! -z $nordeast ]]; then
-					echo -n "#"
-				else
 					echo -n "!"
+				else
+					echo -n "#"
 				fi
-				nordwest=
-				nordeast=
 			done
 			mv "$TMPDIR/"* "$WWWROOT/geodata.$domainname/$iso3166/"
 			tar -cvf "$WWWROOT/geodata.$domainname/geodata-$iso3166.tar" "$WWWROOT/geodata.$domainname/$iso3166/"
