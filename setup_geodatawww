@@ -125,7 +125,7 @@ do
 				fi
 				echo -n "\n"
 			done
-			mv "$TMPDIR/*" "$WWWROOT/geodata.$domainname/$iso3166/"
+			mv "$TMPDIR/"* "$WWWROOT/geodata.$domainname/$iso3166/"
 			tar -cvf "$WWWROOT/geodata.$domainname/geodata-$iso3166.tar" "$WWWROOT/geodata.$domainname/$iso3166/"
 			echo -n "you can download the archive containing the $iso3166 geographic data and informations \n"
 			;;
