@@ -21,6 +21,25 @@ if [ ! -d "$WWWROOT/geodata.telecom.lobby" ]; then
 fi
 
 cd "$WWWROOT/geodata.telecom.lobby"
+
+iso3166=
+while [ -z $iso3166 ]
+do
+	echo -n "Type the country code ISO 3166 "
+	read iso3166
+	case $iso3166 in
+		[eE][sS]) 
+			if [[ ! -d "$WWWROOT/geodata.telecom.lobby/$iso3166" ]]; then
+				mkdir "$WWWROOT/geodata.telecom.lobby/$iso3166"
+			fi
+			;;
+		*)
+			echo -n "Sorry for now only Spain is supported between LAT from 35 to 43 N\
+				\n and LONG from 0 to 3 E and from 0 to 9 W \n"
+			exit 1
+			;;
+	esac
+done
 ctrl=
 while [ -z $ctrl ]
 do
@@ -46,52 +65,6 @@ do
 			;;
 		*) 
 			echo "please type yes or no \n"
-			exit 1
-			;;  
-	esac
-done
-iso3166=
-while [ -z $iso3166 ]
-do
-	echo -n "Type the country code ISO 3166 "
-	read iso3166
-	case $iso3166 in
-		[eE][sS]) 
-			if [[ ! -d "$WWWROOT/geodata.telecom.lobby/$iso3166" ]]; then
-				mkdir "$WWWROOT/geodata.telecom.lobby/$iso3166"
-			fi
-			;;
-		*)
-			echo -n "Sorry for now only Spain is supported between LAT from 35 to 43 N\
-				\n and LONG from 0 to 3 E and from 0 to 9 W \n"
-			exit 1
-			;;
-	esac
-done
-ctrl=
-while [ -z $ctrl ]
-do
-	echo -n "Do you want to download SRTM and Land coverdata? \
-		\nbe careful they are more that 10GB "
-	read ctrl
-	case $ctrl in
-		[yY][eE][sS])
-			wget --mirror --convert-links --adjust-extension --page-requisites  --no-parent  --user-agent="Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0" https://srtm.kurviger.de/
-			mv srtm.kurvinger.de/* . && rm -rf srtm.kurvinger.de
-			cd SRTM1
-			find . -name "*.zip" | xargs -I {} mv {} .
-			find . -not -name "*.zip" | xargs -I {} rm -rf {} 
-			cd SRTM3
-			find . -name "*.zip" | xargs -I {} mv {} .
-			find . -not -name "*.zip" | xargs -I {} rm -rf {} 
-			mkdir Landcover && cd Landcover
-			wget http://rmw.recordist.com/landcover/
-			cat index.html | grep -io '<a href=['"'"'"][^"'"'"']*['"'"'"]' | sed 's/<a href="/rmw.recordist.com\/landcover\//' | sed 's/"//' | awk -F, '$1 ~ "zip"' | xargs -I {} wget {}
-			;;
-		[nN][oO])
-			;;
-		*) 
-			echo -n "please type yes or no \n"
 			exit 1
 			;;  
 	esac
