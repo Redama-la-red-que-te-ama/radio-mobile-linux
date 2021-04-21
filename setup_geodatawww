@@ -136,7 +136,7 @@ do
 done
 
 
-sed -i "s/\/PUBLICIP\//$publicip/g" "src/etc/httpd.conf.geodata.$domainname"
+sed -i "s/\/PUBLICIP\//$publicip/g" src/etc/httpd.conf.geodata.$domainname
 
 if [[ -e "/etc/httpd.conf.geodata.$domainname" ]]; then
 	install -o root -g wheel -m 0640 -b "src/etc/httpd.conf.geodata.$domainname" /etc/
