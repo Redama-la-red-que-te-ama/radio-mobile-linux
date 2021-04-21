@@ -145,6 +145,8 @@ En mi caso:
 - RIBES-CENTRO
   - BR-01-RKM5 
 
+![](https://redama.es/Imagenes/radiomobile_montgros.png)
+
 Gracias por tu tiempo,
 
 Riccardo `<taglio>` Giuntoli.
