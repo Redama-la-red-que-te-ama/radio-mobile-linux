@@ -67,7 +67,11 @@ Las páginas web de las cuales he creado respaldos son:
 - [Index of /srtm/version2_1](https://srtm.kurviger.de/)
 - [Index of /files/raw-data/land-use/USGS_LCI/](https://data.mint.isi.edu/files/raw-data/land-use/USGS_LCI/)
 
-Para configurar un server OpenBSD web que funcione en dominio de red local utilices `setup_geodatawww` en un sistema OpenBSD. Dentro de el directorio ráiz del servidor web configurado
+Para configurar un servidor OpenBSD web repositorio de ficheros de información geográfica que funcione en dominio de red local utilices `setup_geodatawww`.
+
+Una vez obtenidos los que nos interesan según territorio y nomenclatura estándar internacional [ISO 3166](https://es.wikipedia.org/wiki/ISO_3166) lo vamos a descargar en nuestro sistema Linux con emulador `wine`:
+
+
 
 Otra parte importante para hacer funcionar correctamente Radio Mobile con el fin de producir proyectos de cobertura de radio útiles a la alta en el registro de operadores de telecomunicaciones es la gestión de los ficheros `.ant`.
 
