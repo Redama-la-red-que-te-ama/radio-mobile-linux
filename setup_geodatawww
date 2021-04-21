@@ -36,16 +36,19 @@ do
 			cd SRTM3
 			find . -name "*.zip" | xargs -I {} mv {} .
 			find . -not -name "*.zip" | xargs -I {} rm -rf {} 
+			cd .. 
+			find . -type d -not -name SRTM1 -not -name SRTM3 -not -name . | xargs -I {} rm -rf {} 
 			mkdir Landcover && cd Landcover
 			wget http://rmw.recordist.com/landcover/
 			cat index.html | grep -io '<a href=['"'"'"][^"'"'"']*['"'"'"]' | sed 's/<a href="/rmw.recordist.com\/landcover\//' | sed 's/"//' | awk -F, '$1 ~ "zip"' | xargs -I {} wget {}
 			;;
-		"no")
+		"no")	
 			;;
 		*) 
-			echo -n "please type yes or no"
+			echo "please type yes or no \n"
 			exit 1
 			;;  
+	esac
 done
 iso3166=
 while [ -z $iso3166 ]
@@ -63,6 +66,7 @@ do
 				\n and LONG from 0 to 3 E and from 0 to 9 W \n"
 			exit 1
 			;;
+	esac
 done
 ctrl=
 while [ -z $ctrl ]
@@ -90,6 +94,7 @@ do
 			echo -n "please type yes or no \n"
 			exit 1
 			;;  
+	esac
 done
 ctrl=
 while [ -z $ctrl ]
@@ -137,6 +142,8 @@ do
 				fi
 			 done
 			mv "$TMPDIR/*" "$WWWROOT/geodata.telecom.lobby/$iso3166/"
+			tar -cvf "$WWWROOT/geodata.telecom.lobby/geodata-$iso3166.tar" "$WWWROOT/geodata.telecom.lobby/$iso3166/"
+			echo -n "you can download the archive containing the $iso3166 geographic data and informations \n"
 			;;
 		"no")
 			;;
@@ -144,6 +151,7 @@ do
 			echo -n "please type yes or no"
 			exit 1
 			;;  
+	esac
 done
 
 
