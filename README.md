@@ -54,7 +54,7 @@ Configuramos las carpetas en las cuales nuestro programa tiene que buscar los fi
 
 Muy lamentablemente bajo `wine` Radio Mobile no puede descargar ningún tipo de fichero de información geográfica como tampoco actualización desde Internet.
 
-![](http://redama.es/geodata_radio_mobile.png)
+![](http://redama.es/Imagenes/geodata_radio_mobile.png)
 
 Estos datos no son simples de encontrar en la web debido a que muchos usuarios los han embebidos dentro de aplicaciones web de consulta ad hoc.
 
@@ -70,6 +70,10 @@ Las páginas web de las cuales he creado respaldos son:
 Para configurar un servidor OpenBSD web repositorio de ficheros de información geográfica que funcione en dominio de red local utilices `setup_geodatawww`.
 
 Una vez obtenidos los que nos interesan según territorio y nomenclatura estándar internacional [ISO 3166](https://es.wikipedia.org/wiki/ISO_3166) lo vamos a descargar en nuestro sistema Linux con emulador `wine`:
+
+```
+$ cd 
+```
 
 
 
