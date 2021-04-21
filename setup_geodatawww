@@ -144,8 +144,8 @@ if [[ -e "/etc/httpd.conf.geodata.$domainname" ]]; then
 fi
 
 if [[ -e "/etc/httpd.conf" ]]; then 
-	if grep -q geodata "/etc/httpd.conf"; then
-		echo include "/etc/httpd.conf.geodata.$domainname" >> /etc/httpd.conf
+	if ! grep -q geodata "/etc/httpd.conf"; then
+		echo include \"/etc/httpd.conf.geodata.$domainname\" >> /etc/httpd.conf
 		rcctl restart httpd
 	fi
 else
