@@ -118,13 +118,11 @@ do
 						fi
 					fi
 				fi
-				if [[ ! -z $nordwest && ! -z $nordeast ]]; then
-					echo -n "!"
-				else
-					echo -n "#"
-				fi
+			
+				echo -n "."
 			done
-			mv "$TMPDIR/"* "$WWWROOT/geodata.$domainname/$iso3166/"
+			
+			cp -rf "$TMPDIR/"* "$WWWROOT/geodata.$domainname/$iso3166/"
 			tar -cvf "$WWWROOT/geodata.$domainname/geodata-$iso3166.tar" "$WWWROOT/geodata.$domainname/$iso3166/"
 			echo -n "you can download the archive containing the $iso3166 geographic data and informations \n"
 			;;
