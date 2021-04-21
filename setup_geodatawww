@@ -88,7 +88,7 @@ do
 			file=
 			nordwest=
 			nordeast=
-			for filepath in */*; do
+			for filepath in "$WWWROOT/geodata.telecom.lobby/*/*"; do
 				file=$(basename "$filepath") 
 				nordwest=$(echo $file | grep -v "S" | grep -v "E")
 				if [[ ! -z $nordwest ]]; then
