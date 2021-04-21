@@ -12,6 +12,7 @@ TMPDIR=$(mktemp -d)
 uid=$(id -u)
 publicip=$(ifconfig egress | grep inet |grep -v inet6 | cut -d ' ' -f2)
 domainname=$(hostname | sed "s/$(hostname -s).//")
+appdir=$(pwd)
 
 
 if [[ $uid -ne 0 ]]; then
@@ -135,7 +136,7 @@ do
 	esac
 done
 
-
+cd $appdir
 sed -i "s/\/PUBLICIP\//$publicip/g" src/etc/httpd.conf.geodata.$domainname
 
 if [[ -e "/etc/httpd.conf.geodata.$domainname" ]]; then
