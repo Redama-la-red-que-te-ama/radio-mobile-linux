@@ -123,7 +123,8 @@ do
 				else
 					echo -n "!"
 				fi
-				echo -n "\n"
+				nordwest=
+				nordeast=
 			done
 			mv "$TMPDIR/"* "$WWWROOT/geodata.$domainname/$iso3166/"
 			tar -cvf "$WWWROOT/geodata.$domainname/geodata-$iso3166.tar" "$WWWROOT/geodata.$domainname/$iso3166/"
