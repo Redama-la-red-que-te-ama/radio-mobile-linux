@@ -91,7 +91,7 @@ do
 			cd "$WWWROOT/geodata.telecom.lobby"
 			for filepath in */*; do
 				file=$(basename $filepath) 
-				nordwest=$(echo $file | grep -v "S" | grep -v "E")
+				nordwest=$(echo $file | sed -e "/S/d" -e "/E/d")
 				if [[ ! -z $nordwest ]]; then
 					typeset -i lat=$(echo $nordwest | sed -e "s/.*N//g" -e "s/W.*//g")
 					typeset -i long=$(echo $nordwest | sed -e "s/.*W//g" -e "s/\..*//g")
@@ -103,7 +103,7 @@ do
 						fi
 					fi
 				fi
-				nordeast=$(echo $file | grep -v "S" | grep -v "W")
+				nordeast=$(echo $file | sed -e "/S/d" -e "/W/d")
 				if [[ ! -z $nordeast ]]; then
 					typeset -i lat=$(echo $nordeast | sed -e "s/.*N//g" -e "s/E.*//g")
 					typeset -i long=$(echo $nordeast | sed -e "s/.*E//g" -e "s/\..*//g")
