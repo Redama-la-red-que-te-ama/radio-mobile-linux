@@ -142,7 +142,7 @@ Después de tomar nota de los puntos de transmisión añadir los transmisores ut
 
 Radio Mobile guarda las informaciones de los diferentes conjuntos de sistemas transmisores, radio más antena, y sus relativas alturas de instalación en un fichero en la raíz del programa. Toma el nombre de `Radiosys.dat`. He querido añadir uno script para su configuración automática y uno libremente descargadle en este mismo repositorio,  `radiosys_config.sh`.
 
-Los sistemas añadidos en src/drive_c/Radio_Mobile/Radiosys.dat son los siguientes:
+Los sistemas añadidos en `src/drive_c/Radio_Mobile/Radiosys.dat` son los siguientes:
 
 - Rocket M5 + RD30 + [polarización](https://es.wikipedia.org/wiki/Polarizaci%C3%B3n_electromagn%C3%A9tica) vertical + [máximo PIRE](https://es.wikipedia.org/wiki/Potencia_Isotr%C3%B3pica_Radiada_Equivalente) + {3,6,9,12,15,18,21} metros de altura de instalación.
 
