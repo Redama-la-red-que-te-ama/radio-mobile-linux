@@ -88,7 +88,8 @@ do
 			file=
 			nordwest=
 			nordeast=
-			for filepath in "$WWWROOT/geodata.telecom.lobby/*/*"; do
+			cd "$WWWROOT/geodata.telecom.lobby"
+			for filepath in */*; do
 				file=$(basename "$filepath") 
 				nordwest=$(echo $file | grep -v "S" | grep -v "E")
 				if [[ ! -z $nordwest ]]; then
@@ -114,7 +115,7 @@ do
 						fi
 					fi
 				fi
-			 done
+			done
 			mv "$TMPDIR/*" "$WWWROOT/geodata.telecom.lobby/$iso3166/"
 			tar -cvf "$WWWROOT/geodata.telecom.lobby/geodata-$iso3166.tar" "$WWWROOT/geodata.telecom.lobby/$iso3166/"
 			echo -n "you can download the archive containing the $iso3166 geographic data and informations \n"
