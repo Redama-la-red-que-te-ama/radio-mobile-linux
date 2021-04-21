@@ -27,7 +27,7 @@ do
 	echo -n "Do you want to download SRTM data? "
 	read ctrl
 	case $ctrl in
-		"yes")
+		[Yy]"es")
 			wget --mirror --convert-links --adjust-extension --page-requisites  --no-parent  --user-agent="Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0" https://srtm.kurviger.de/
 			mv srtm.kurvinger.de/* . && rm -rf srtm.kurvinger.de
 			cd SRTM1
@@ -42,7 +42,7 @@ do
 			wget http://rmw.recordist.com/landcover/
 			cat index.html | grep -io '<a href=['"'"'"][^"'"'"']*['"'"'"]' | sed 's/<a href="/rmw.recordist.com\/landcover\//' | sed 's/"//' | awk -F, '$1 ~ "zip"' | xargs -I {} wget {}
 			;;
-		"no")	
+		[Nn]"o")	
 			;;
 		*) 
 			echo "please type yes or no \n"
@@ -56,7 +56,7 @@ do
 	echo -n "Type the country code ISO 3166 "
 	read iso3166
 	case $iso3166 in
-		"ES") 
+		[eE][sS]) 
 			if [[ ! -d "$WWWROOT/geodata.telecom.lobby/$iso3166" ]]; then
 				mkdir "$WWWROOT/geodata.telecom.lobby/$iso3166"
 			fi
