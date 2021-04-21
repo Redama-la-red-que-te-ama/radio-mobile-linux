@@ -1,5 +1,7 @@
 #!/bin/ksh
 
+#TODO for loop performance
+
 set -o errexit
 set -o nounset
 
