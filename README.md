@@ -12,6 +12,7 @@ Nuestro fin es aportar en [comisión de mercado de telecomunicaciones](https://w
 
 Seguir los mandos para instalar:
 
+- [Wine](https://www.winehq.org/)
 - [winetricks](https://github.com/redeltaglio/winetricks)
 - [Visual Basic Runtime (Service pack 6)](https://www.microsoft.com/es-ES/download/details.aspx?id=24417)
 
@@ -276,9 +277,13 @@ Como podéis apreciar respectamos la normativa de explotación del espectro en f
 
 Para obtener todavía más visión de la zona de trabajo de nuestro proyecto podemos exportar cada enlace en fichero `kml` y abrirlos con Google Earth:
 
+![](https://redama.es/Imagenes/radiomobile_earth.png)
 
+#### Detalles de cobertura de sectoriales
 
-![](https://redama.es/Imagenes/radiomobile_montgros.png)
+Con el mero fin de individuar los municipios y los códigos postales de cobertura de nuestras instalaciones vamos a utilizar la herramienta en manera que tengamos clara la cobertura real de nuestros sectores. Así que podremos organizar varias campañas publicitarias como buzoneo, radio y televisiones locales y prensa local. Acordaros también de paquetizar ofertas de lanzo de vuestra cartelera de productos y diferentes tipos según cliente y establecimientos.
+
+ ![](https://redama.es/Imagenes/radiomobile_montgros.png)
 
 Gracias por tu tiempo,
 
