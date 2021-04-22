@@ -232,6 +232,17 @@ Las operaciones para obtener el mapa sobre indicado son las siguientes:
 
 ![](https://redama.es/Imagenes/radio_mobile_network3.png)
 
+En mi caso disponemos así de siete redes inalámbricas y de los datos necesarios para su perfecto funcionamiento:
+
+ **RIBES-CENTRO**:
+
+- Parabólica --> MONTGROS-SX:
+  -  Azimut: 290.9 grados.
+  - Angulo de elevación: 5.53 grados.
+- Sector 120 grados --> VINYALS
+  - Azimuth: 305 grados.
+  - Angulo de elevación: 5 grados.
+
 ![](https://redama.es/Imagenes/radiomobile_montgros.png)
 
 Gracias por tu tiempo,
