@@ -159,6 +159,58 @@ Los sistemas añadidos en `src/drive_c/Radio_Mobile/Radiosys.dat` son los siguie
 - [Powerbeam](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/datasheets/PowerBeam_DS.pdf) M5 300 y M5 400 + [máximo PIRE](https://es.wikipedia.org/wiki/Potencia_Isotr%C3%B3pica_Radiada_Equivalente) + 20 metros de altura de instalación.
 - [Powerbeam](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/datasheets/PowerBeam_DS.pdf) M5 300 y M5 400 + [PIRE permitido por normativa](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/leyes/uso_de_las_bandas_libres_de_5470-5725_mhz_y_5725-5875_mhz_en_espana.pdf) + 20 metros de altura de instalación. Consideramos 1W en el rango desde `5470` hasta `5725`.
 
+Una vez añadidos, procedemos con el individuar otros seis puntos geográficos al rededor del punto de presencia de RIBES-CENTRO y de MONTGROS-SX para estudiar la cobertura de las antenas sectoriales y saber donde podemos arrancar con el buzoneo pertinente y informar así la población de nuestro servicio de acceso a Internet, de voz sobre IP y de transporte IP.
+
+ **KONIC**
+
+- LAT: 41°16'23.3"N 
+- LONG: 1°45'2.0"E
+- ALT: 10 metros.
+- UTM: 41.27314 , 1.750567
+- QRA: JN01VG
+
+ **VILANOVA**
+
+- LAT: 41°13'46.3"N 
+- LONG: 1°44'17.5"E
+- ALT: 20 metros.
+- UTM: 41.22953 , 1.738189
+- QRA: JN01UF
+
+ **CANYELLES**
+
+- LAT: 41°16'28.3"N 
+- LONG: 1°42'24.9"E
+- ALT: 20 metros.
+- UTM: 41.27454 , 1.706903
+- QRA: JN01UG
+
+ **OLIVELLA**
+
+- LAT: 41°18'36.5"N 
+- LONG: 1°48'41.0"E
+- ALT: 20 metros.
+- UTM: 41.31013 , 1.811381
+- QRA: JN01VH
+
+ **LAS TORRES**
+
+- LAT: 41°14'53.5"N 
+- LONG: 1°47'37.0"E
+- ALT: 20 metros.
+- UTM: 41.24819 , 1.793614
+- QRA: JN01VF
+
+ **ST PERE WEST**
+
+- LAT: 41°15'16.3"N 
+- LONG: 1°45'30.5"E
+- ALT: 20 metros.
+- UTM: 41.25453 , 1.758469
+- QRA: JN01VG
+
+Vamos a conectar cada punto de transmisión a través de antenas parabólicas de punto a punto y cubrimos el territorio circunstante con tres sectores de 120 grados en cada uno de ellos.
+
 ![](https://redama.es/Imagenes/radiomobile_montgros.png)
 
 Gracias por tu tiempo,
