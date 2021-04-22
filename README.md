@@ -249,6 +249,21 @@ En mi caso disponemos así de siete redes inalámbricas y de los datos necesario
   - Azimuth: 250 grados.
   - Angulo de elevación: 1 grados.
 
+**MONTGROS-SX**:
+
+- `Parabólica --> RIBES-CENTRO`:
+  -  Azimut: 110.9 grados.
+  - Angulo de elevación: -5.56 grados.
+- `Sector 120 grados --> VILLANOVA`:
+  - Azimuth: 180 grados.
+  - Angulo de elevación: -4 grados.
+- `Sector 120 grados --> CANYELLES`:
+  - Azimuth: 285.5 grados.
+  - Angulo de elevación: -3.23 grados.
+- `Sector 120 grados --> OLIVELLA`:
+  - Azimuth: 52.5 grados.
+  - Angulo de elevación: -1 grados.
+
 ![](https://redama.es/Imagenes/radiomobile_montgros.png)
 
 Gracias por tu tiempo,
