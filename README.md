@@ -75,8 +75,10 @@ Para configurar un servidor OpenBSD web repositorio de ficheros de información 
 
 Una vez obtenidos los que nos interesan según territorio y nomenclatura estándar internacional [ISO 3166](https://es.wikipedia.org/wiki/ISO_3166) lo vamos a descargar en nuestro sistema Linux con emulador `wine`:
 
-```
-$ cd 
+```shell
+$ cd ~/.wine/drive_c/Geodata
+$ wget http://geodata.telecom.lobby/geodata-ES.tar
+$ tar xvf geodata-ES.tar
 ```
 
 
@@ -283,7 +285,9 @@ Para obtener todavía más visión de la zona de trabajo de nuestro proyecto pod
 
 Con el mero fin de individuar los municipios y los códigos postales de cobertura de nuestras instalaciones vamos a utilizar la herramienta en manera que tengamos clara la cobertura real de nuestros sectores. Así que podremos organizar varias campañas publicitarias como buzoneo, radio y televisiones locales y prensa local. Acordaros también de paquetizar ofertas de lanzo de vuestra cartelera de productos y diferentes tipos según cliente y establecimientos.
 
- ![](https://redama.es/Imagenes/radiomobile_montgros.png)
+Accedemos a la función a través la presión de la tecla `F3`:
+
+![](https://redama.es/Imagenes/radiomobile_lestorres.png)
 
 Gracias por tu tiempo,
 
