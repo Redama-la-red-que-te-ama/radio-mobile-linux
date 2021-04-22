@@ -1,4 +1,7 @@
+
+
 ## Radio Mobile, instalación y utilizo bajo ambiente wine Linux
+
 ![](https://redama.es/Imagenes/radio_mobile.png)
 
 Una guía sobre como instalar y utilizar el software por excelencia de planificación de explotación de red inalámbricas. [Radio Mobile](https://www.ve2dbe.com/english1.html). 
@@ -212,6 +215,10 @@ Una vez añadidos, procedemos con el individuar otros seis puntos geográficos a
 - QRA: JN01VG
 
 Vamos a conectar cada punto de transmisión a través de antenas parabólicas de punto a punto y cubrimos el territorio circunstante con tres sectores de 120 grados en cada uno de ellos.
+
+![](https://redama.es/Imagenes/radio_mobile_network.png)
+
+
 
 ![](https://redama.es/Imagenes/radiomobile_montgros.png)
 
