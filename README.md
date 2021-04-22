@@ -270,7 +270,13 @@ Accedemos a los detalles de enlace de radio presionando la tecla de función `F2
 
 ![](https://redama.es/Imagenes/enlace_radio1.png)
 
-Como podéis apreciar respectamos la normativa de explotación del espectro en frecuencia libre desde `5815` hasta `5855` MHz siendo el PIRE menor de 4 vatios. Para obtener más detalles acerca del enlace, que como se puede apreciar incluye datos acerca del tipo de terreno obtenido de ficheros `.lcv` que hemos previamente descargado y añadido a la carpeta `Landcover` bajo la raíz del programa. 
+Como podéis apreciar respectamos la normativa de explotación del espectro en frecuencia libre desde `5815` hasta `5855` MHz siendo el PIRE menor de 4 vatios. Para obtener más detalles acerca del enlace, que como se puede apreciar incluye datos acerca del tipo de terreno obtenido de ficheros `.lcv` que hemos previamente descargado y añadido a la carpeta `Landcover` bajo la raíz del programa, utilizar el menú `Editar`, `Exportar a`, `RMpath`:
+
+![](https://redama.es/Imagenes/rmpath_radiomobile1.png)
+
+Para obtener todavía más visión de la zona de trabajo de nuestro proyecto podemos exportar cada enlace en fichero `kml` y abrirlos con Google Earth:
+
+
 
 ![](https://redama.es/Imagenes/radiomobile_montgros.png)
 
