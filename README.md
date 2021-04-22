@@ -264,6 +264,14 @@ En mi caso disponemos así de siete redes inalámbricas y de los datos necesario
   - Azimuth: 52.5 grados.
   - Angulo de elevación: -1 grados.
 
+#### Detalles de radio enlaces
+
+Accedemos a los detalles de enlace de radio presionando la tecla de función `F2`:
+
+![](https://redama.es/Imagenes/enlace_radio1.png)
+
+Como podéis apreciar respectamos la normativa de explotación del espectro en frecuencia libre desde `5815` hasta `5855` MHz siendo el PIRE menor de 4 vatios. Para obtener más detalles acerca del enlace, que como se puede apreciar incluye datos acerca del tipo de terreno obtenido de ficheros `.lcv` que hemos previamente descargado y añadido a la carpeta `Landcover` bajo la raíz del programa. 
+
 ![](https://redama.es/Imagenes/radiomobile_montgros.png)
 
 Gracias por tu tiempo,
