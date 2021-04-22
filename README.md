@@ -218,7 +218,15 @@ Vamos a conectar cada punto de transmisión a través de antenas parabólicas de
 
 ![](https://redama.es/Imagenes/radio_mobile_network.png)
 
+Las operaciones para obtener el mapa sobre indicado son las siguientes:
 
+- Definir nombre de red, rango de frecuencia según normativa y tipo de [clima](https://es.wikipedia.org/wiki/Clima), que en mi caso es el [clima mediterráneo típico](https://es.wikipedia.org/wiki/Clima_mediterr%C3%A1neo_t%C3%ADpico). 
+
+![](https://redama.es/Imagenes/radio_mobile_network1.png)
+
+- Definir topología de red que en el caso de punto a punto y de punto a multipunto IP es red de datos, [topología estrella](https://es.wikipedia.org/wiki/Red_en_estrella).
+
+![](https://redama.es/Imagenes/radio_mobile_network2.png)
 
 ![](https://redama.es/Imagenes/radiomobile_montgros.png)
 
