@@ -228,7 +228,9 @@ Las operaciones para obtener el mapa sobre indicado son las siguientes:
 
 ![](https://redama.es/Imagenes/radio_mobile_network2.png)
 
-- 
+- Seleccionar unidades y sistemas, la herramienta nos devolverá el [azimuth](https://es.wikipedia.org/wiki/Acimut) y el [angulo de elevación](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/guias/13_Orientacion%20antena%20parabolica.pdf) de nuestra antena.
+
+![](https://redama.es/Imagenes/radio_mobile_network3.png)
 
 ![](https://redama.es/Imagenes/radiomobile_montgros.png)
 
