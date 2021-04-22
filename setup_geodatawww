@@ -148,10 +148,11 @@ if [[ -e "/etc/httpd.conf" ]]; then
 		echo include \"/etc/httpd.conf.geodata.$domainname\" >> /etc/httpd.conf
 		rcctl restart httpd
 	fi
-else
-	install -o root -g wheel -m 0640 -b src/etc/httpd.conf /etc/
-	install -o root -g wheel -m 0640 -b src/etc/httpd.conf.mime.types /etc/
-	rcctl enable httpd
+	else
+		install -o root -g wheel -m 0640 -b src/etc/httpd.conf /etc/
+		install -o root -g wheel -m 0640 -b src/etc/httpd.conf.mime.types /etc/
+		rcctl enable httpd
+	fi
 	rcctl start httpd
 fi
 
