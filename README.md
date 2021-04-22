@@ -228,6 +228,8 @@ Las operaciones para obtener el mapa sobre indicado son las siguientes:
 
 ![](https://redama.es/Imagenes/radio_mobile_network2.png)
 
+- 
+
 ![](https://redama.es/Imagenes/radiomobile_montgros.png)
 
 Gracias por tu tiempo,
