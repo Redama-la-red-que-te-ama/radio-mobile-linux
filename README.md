@@ -161,6 +161,8 @@ Los sistemas añadidos en `src/drive_c/Radio_Mobile/Radiosys.dat` son los siguie
 
 Una vez añadidos, procedemos con el individuar otros seis puntos geográficos al rededor del punto de presencia de RIBES-CENTRO y de MONTGROS-SX para estudiar la cobertura de las antenas sectoriales y saber donde podemos arrancar con el buzoneo pertinente y informar así la población de nuestro servicio de acceso a Internet, de voz sobre IP y de transporte IP.
 
+![](https://redama.es/Imagenes/radio_mobile_units.png)
+
  **KONIC**
 
 - LAT: 41°16'23.3"N 
