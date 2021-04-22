@@ -144,7 +144,8 @@ Radio Mobile guarda las informaciones de los diferentes conjuntos de sistemas tr
 
 Los sistemas añadidos en `src/drive_c/Radio_Mobile/Radiosys.dat` son los siguientes:
 
-- Rocket M5 + RD30 + [polarización](https://es.wikipedia.org/wiki/Polarizaci%C3%B3n_electromagn%C3%A9tica) vertical + [máximo PIRE](https://es.wikipedia.org/wiki/Potencia_Isotr%C3%B3pica_Radiada_Equivalente) + {3,6,9,12,15,18,21} metros de altura de instalación.
+- Rocket M5 + RD30 + [polarización](https://es.wikipedia.org/wiki/Polarizaci%C3%B3n_electromagn%C3%A9tica) vertical + [máximo PIRE](https://es.wikipedia.org/wiki/Potencia_Isotr%C3%B3pica_Radiada_Equivalente) + 20 metros de altura de instalación.
+- Rocket M5 + RD30 + [polarización](https://es.wikipedia.org/wiki/Polarizaci%C3%B3n_electromagn%C3%A9tica) vertical + [PIRE permitido por normativa](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/blob/main/Leyes/uso_de_las_bandas_libres_de_5470-5725_mhz_y_5725-5875_mhz_en_espana.pdf) + 20 metros de altura de instalación. Consideramos 4W en el rango desde 5725 hasta 5875.
 
 ![](https://redama.es/Imagenes/radiomobile_montgros.png)
 
