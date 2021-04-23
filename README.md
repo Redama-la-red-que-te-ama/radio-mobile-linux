@@ -295,6 +295,22 @@ Un vez conseguidos los datos de Radio Mobile bajo ambiente de emulación `wine` 
 
 Rellenar y volver a escanear el [modulo de notificación](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/cnmc/notificacion_cnmc.pdf). Para acceder a la web del registro es necesario disponer de un [certificado digital](https://sedeaplicaciones.minetur.gob.es/Prestadores/) de ciudadania reconocido y emitido por el gobierno. 
 
+Importante reconocer si la entidad que hace la petición de registro, nosotros, somos clasificado por el gobierno a nivel fiscal como persona física, impresarios autonomos, o persona jurídica, empresas.
+
+En mi caso soy un autonomo por lo cual tengo que preocuparme de anexar a mi procedimiento de registro tales documentos:
+
+- DNI o NIE, y si, como yo, fuera este último documento del páis de proveniencia y si extra europeo pasaporte.
+- Nombre Apellidos y NIF.
+- Hoja de padron.
+
+Documentación tecnica: 
+
+- Acerca de la documentación de la ingeniería y diseño de red incluimos:
+  - Ámbito territorial de cobertura. Comarcas y codigos postales.
+  - Indicar si es red propia o ajena.
+  - Indicar si la implantación de la red requiere la ocupación del dominio público radioeléctrico. En mi caso por ejemplo ocupo una azotea privada y espacio en una torre de telecomunicaciones que pertenece a la empresa [Cellnex telecom](https://www.cellnextelecom.com/).
+  - [Diagrama de bloques](https://es.wikipedia.org/wiki/Diagrama_de_bloques) complementario que facilite la descripción.
+
 Gracias por tu tiempo,
 
 Riccardo `<taglio>` Giuntoli.
