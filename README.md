@@ -291,7 +291,9 @@ Accedemos a la función a través la presión de la tecla `F3`:
 
 #### Documentación registro de operadores
 
-Un vez conseguidos los datos de Radio Mobile bajo ambiente de emulación `wine` en Linux 
+Un vez conseguidos los datos de Radio Mobile bajo ambiente de emulación `wine` en Linux pasamos a preparar la documentación requirida para el modulo "[Explotación de redes y/o prestaciones de servicios de comunicaciones electrónicas](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/cnmc/explotacion_redes_servicios_comunicaciones.pdf)".
+
+Rellenar y volver a escanear el [modulo de notificación](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/cnmc/notificacion_cnmc.pdf). Para acceder a la web del registro es necesario disponer de un [certificado digital](https://sedeaplicaciones.minetur.gob.es/Prestadores/) de ciudadania reconocido y emitido por el gobierno. 
 
 Gracias por tu tiempo,
 
