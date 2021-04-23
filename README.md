@@ -289,6 +289,10 @@ Accedemos a la función a través la presión de la tecla `F3`:
 
 ![](https://redama.es/Imagenes/radiomobile_lestorres.png)
 
+#### Documentación registro de operadores
+
+Un vez conseguidos los datos de Radio Mobile bajo ambiente de emulación `wine` en Linux 
+
 Gracias por tu tiempo,
 
 Riccardo `<taglio>` Giuntoli.
