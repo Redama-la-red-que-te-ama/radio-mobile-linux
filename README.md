@@ -293,7 +293,7 @@ Con el mero fin de individuar los municipios y los códigos postales de cobertur
 
 Accedemos a la función a través la presión de la tecla `F3`:
 
-![](https://redama.es/Imagenes/radiomobile_lestorres.png)
+![](https://redama.es/Imagenes/cobertura_redama_real_openstreetmap.jpg)
 
 #### Documentación registro de operadores
 
