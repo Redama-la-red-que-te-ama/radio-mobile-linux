@@ -315,6 +315,19 @@ Y todo el servicio de cartografía del estado:
 
 - [Sistema cartográfico nacional](http://www.scne.es/)
 
+En mi caso los códigos postales cubierto parcialmente de mi instalación serán:
+
+- 43881
+- 08729
+- 08730
+- 08811
+- 08734
+- 08818
+- 08872
+- 08870
+- 08810
+- 08812
+
 #### Documentación registro de operadores
 
 Un vez conseguidos los datos de Radio Mobile bajo ambiente de emulación `wine` en Linux pasamos a preparar la documentación requirida para el modulo "[Explotación de redes y/o prestaciones de servicios de comunicaciones electrónicas](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/cnmc/explotacion_redes_servicios_comunicaciones.pdf)".
