@@ -93,6 +93,12 @@ $ wget https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/a
 $ tar xvf antenna.tar && mv antenna/* . && rm -rf antenna/
 ```
 
+Para descargar los ficheros relativos a OpenStreetMap hay varias fuentes posibles, un primer listado que nos devuelve el formado [`obf`](https://web.archive.org/web/20160819015145/https://code.google.com/p/osmand/wiki/HowToInspectAnObfBinaryFile) para la aplicación por móviles que se llama [OsmAnd](https://osmand.net/) es:
+
+- [Osmand Local Indexes List](https://osmand.net/list.php)
+
+El formato nativo de OpenStreetMap para gestionar los archivos de mapas toma el nombre de [tile](https://wiki.openstreetmap.org/wiki/Tiles). En el repositorio he descargado todo lo necesario para la comunidad autónoma de Catalunya en `src/drive_c/Radio_Mobile/Geodata/OpenStreetMap`. Las carpetas están numeradas según el [nivel de zoom](https://wiki.openstreetmap.org/wiki/ES:Niveles_de_zoom). 
+
 #### Utilizo 
 
 Teniendo en cuenta que se trata de una herramienta que tenemos que utilizar para confeccionar un proyecto para la Comisión de Mercado de Telecomunicaciones que utilizaremos para diseñar el despliegue de nuestra red inalámbrica con fines de explotación del espectro electromagnético para el transporte IP y la conexión a Internet tomamos nota de los varios puntos geográficos y de la altura donde tenemos instalados nuestros dispositivos. 
