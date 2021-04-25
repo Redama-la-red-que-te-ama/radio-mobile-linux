@@ -342,13 +342,67 @@ En mi caso soy un autónomo por lo cual tengo que preocuparme de anexar a mi pro
 - Nombre Apellidos y NIF.
 - Hoja de padrón.
 
-Documentación técnica: 
+<u>Documentación técnica de la red que se quiere explotar</u>: 
 
 - Acerca de la documentación de la ingeniería y diseño de red incluimos:
   - Ámbito territorial de cobertura. Comarcas y códigos postales.
   - Indicar si es red propia o ajena.
   - Indicar si la implantación de la red requiere la ocupación del dominio público radioeléctrico. En mi caso por ejemplo ocupo una azotea privada y espacio en una torre de telecomunicaciones que pertenece a la empresa [Cellnex telecom](https://www.cellnextelecom.com/).
   - [Diagrama de bloques](https://es.wikipedia.org/wiki/Diagrama_de_bloques) complementario que facilite la descripción.
+- Tipo de tecnologías o tecnologías a emplear.
+- Descripción de las medidas de seguridad y confidencialidad que se prevén implantar en la red.
+- Indicación de la red que se quiere explotar:
+  - Red terrestre.
+  - Red que utiliza el dominio público radioeléctrico.
+  - Otra red a detallar por parte del operador.
+
+<u>Descripción del servicio que se quiere suministrar</u>:
+
+- Descripción funcional de los servicios, incluyendo:
+  - Croquis complementario que facilite su descripción incluyendo la tecnología a utilizar.
+  - Si se utilizará red propia o ajena.
+  - Ámbito territorial de prestación del servicio.
+- Oferta de servicios y su descripción comercial (indicando si el servicio se presta de forma gratuita o con contraprestación económica).
+- Indicación del servicio o servicios a prestar, tales como:
+  - Servicio telefónico en sus diferentes modalidades:
+    - Servicio telefónico disponible al público, fijo o móvil (operador móvil virtual completo) con su numeración geográfica fija, red inteligente, móvil, etc.
+    - Telefonía vocal en grupo cerrado de usuarios - Voz sobre redes privadas [IP CENTREX](https://www.voip-info.org/ip-centrex/)
+    -  Servicio telefónico sobre redes de datos en interoperatividad con el servicio telefónico disponible al público
+    - Servicios nómadas 10 (servicios vocales nómadas)
+    -  Transporte de tráfico telefónico entre operadores (códigos de señalización)
+    -  Radiocomunicaciones móviles terrestres en grupos cerrados de usuarios (numeración IRM)
+    - Comunicaciones móviles en aeronaves (MCA) 11
+    - Comunicaciones móviles en buques (MCV) 12
+    - Reventa de servicios vocales:
+      - Fijo: en acceso directo, indirecto o mediante la comercialización y gesión de tarjetas telefónicas de prepago (con subasignación de la numeración fija) 13
+      - Operador móvil virtual prestador de servicio (con subasignación de la
+        numeración móvil)
+      - Móvil por satélite
+      - Vocal Nómada (con subasignación de la numeración nómada)
+    - Consulta telefónica sobre números de abonado:
+      - Consulta telefónica sobre números de abonado (numeración 118AB) 14
+      - Consulta sobre números de abonado mediante mensajes cortos (SMS)
+    - Radiobúsqueda
+    - Gestor del múltiple digital de televisión digital terrestre 15
+    - Reventa de servicios de comunicaciones móviles en itinerancia
+    - Servicios nómadas de mensajes 16
+    - Reventa de servicios nómadas de mensajes 17
+    - Transporte de la señal de los servicios de comunicación audiovisual
+    - Transporte de la señal de los servicios de comunicaciones móviles
+    - Transporte de la señal de los servicios de radiocomunicaciones móviles terrestres en grupo cerrado de usuarios
+    - Servicios de transmisión de datos disponibles al público:
+      - Almacenamiento y reenvío de mensajes 18 (numeración mensajes cortos de texto y mensajes multimedia) / Reventa de almacenamiento y reenvío de mensajes
+      - <u>Correo electrónico</u>
+      - Fax bajo demanda
+      - <u>Interconexión de redes de área local</u>
+      - <u>Proveedor de acceso a Internet</u>
+      - <u>Reventa de capacidad de transmisión/circuitos</u>
+      - <u>Suministro de conmutación de datos por paquetes o circuitos</u>
+      - <u>Videoconferencia</u>
+
+Subrayados los servicios que mi proyecto del nombre comercial  "Redama - la red que te ama." piensa brindar en esta primera fase de diseño. En un segundo tiempo a través de una ampliación que estudiaremos más adelante incluyéremos los productos de telefonía sobre ip.  
+
+​	
 
 Gracias por tu tiempo,
 
