@@ -295,24 +295,44 @@ Accedemos a la función a través la presión de la tecla `F3`:
 
 ![](https://redama.es/Imagenes/cobertura_redama_real_openstreetmap.jpg)
 
+Se pueden apreciar los seis sectores y respectiva cobertura del territorio que en mi caso corresponde a buena parte de la comarca del [Garraf](https://es.wikipedia.org/wiki/Garraf), una pequeña parte de [Costa Dorada](https://es.wikipedia.org/wiki/Costa_Dorada_(Espa%C3%B1a)) y de [Bajo Penedés](https://es.wikipedia.org/wiki/Bajo_Pened%C3%A9s). Interesante también la combinación de diferentes tecnologías entra SRTM3, calculo de cobertura y datos de OpenStreetMap. Una vez que guardamos la imagen podemos abrir una shell para averiguar que Radio Mobile en realidad ha creado diferentes ficheros:
+
+``` shell
+$ ls -al cobertura_redama_real_openstreetmap.*
+cobertura_redama_real_openstreetmap.bmp  cobertura_redama_real_openstreetmap.dat  cobertura_redama_real_openstreetmap.geo  cobertura_redama_real_openstreetmap.inf  cobertura_redama_real_openstreetmap.kml
+$
+```
+
+Podemos abrir el [`.kml`](https://es.wikipedia.org/wiki/KML) con Google Earth y obtener esta imagen maravillosa por nuestro proyecto de presentar al gobierno de España:
+
+![](https://redama.es/Imagenes/redama_cobertura_estudio.jpg)
+
+Otra información interesante del punto de vista de la publicidad son los códigos postales:
+
+- [Códigos postales españoles](http://www.cartociudad.es/visor/)
+
+Y todo el servicio de cartografía del estado:
+
+- [Sistema cartográfico nacional](http://www.scne.es/)
+
 #### Documentación registro de operadores
 
 Un vez conseguidos los datos de Radio Mobile bajo ambiente de emulación `wine` en Linux pasamos a preparar la documentación requirida para el modulo "[Explotación de redes y/o prestaciones de servicios de comunicaciones electrónicas](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/cnmc/explotacion_redes_servicios_comunicaciones.pdf)".
 
 Rellenar y volver a escanear el [modulo de notificación](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/cnmc/notificacion_cnmc.pdf). Para acceder a la web del registro es necesario disponer de un [certificado digital](https://sedeaplicaciones.minetur.gob.es/Prestadores/) de ciudadania reconocido y emitido por el gobierno. 
 
-Importante reconocer si la entidad que hace la petición de registro, nosotros, somos clasificado por el gobierno a nivel fiscal como persona física, impresarios autonomos, o persona jurídica, empresas.
+Importante reconocer si la entidad que hace la petición de registro, nosotros, somos clasificado por el gobierno a nivel fiscal como persona física, empresarios autónomos, o persona jurídica, empresas.
 
-En mi caso soy un autonomo por lo cual tengo que preocuparme de anexar a mi procedimiento de registro tales documentos:
+En mi caso soy un autónomo por lo cual tengo que preocuparme de anexar a mi procedimiento de registro tales documentos:
 
-- DNI o NIE, y si, como yo, fuera este último documento del páis de proveniencia y si extra europeo pasaporte.
+- DNI o NIE, y si, como yo, fuera este último documento del país de proveniencia y si extra europeo pasaporte.
 - Nombre Apellidos y NIF.
-- Hoja de padron.
+- Hoja de padrón.
 
-Documentación tecnica: 
+Documentación técnica: 
 
 - Acerca de la documentación de la ingeniería y diseño de red incluimos:
-  - Ámbito territorial de cobertura. Comarcas y codigos postales.
+  - Ámbito territorial de cobertura. Comarcas y códigos postales.
   - Indicar si es red propia o ajena.
   - Indicar si la implantación de la red requiere la ocupación del dominio público radioeléctrico. En mi caso por ejemplo ocupo una azotea privada y espacio en una torre de telecomunicaciones que pertenece a la empresa [Cellnex telecom](https://www.cellnextelecom.com/).
   - [Diagrama de bloques](https://es.wikipedia.org/wiki/Diagrama_de_bloques) complementario que facilite la descripción.
