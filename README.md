@@ -400,7 +400,7 @@ En mi caso soy un autónomo por lo cual tengo que preocuparme de anexar a mi pro
       - <u>Suministro de conmutación de datos por paquetes o circuitos</u>
       - <u>Videoconferencia</u>
 
-Subrayados los servicios que mi proyecto del nombre comercial  "Redama - la red que te ama." piensa brindar en esta primera fase de diseño. En un segundo tiempo a través de una ampliación que estudiaremos más adelante incluyéremos los productos de telefonía sobre ip.  
+Subrayados los servicios que mi proyecto del nombre comercial  "[Redama - la red que te ama.](https://redama.es/)" piensa brindar en esta primera fase de diseño. En un segundo tiempo a través de una ampliación que estudiaremos más adelante incluyéremos los productos de telefonía sobre ip.  
 
 ​	
 
