@@ -2,8 +2,9 @@
 
 SSLDIR="/etc/ssl"
 
-ext=${$1##*.}
-name=$(basename $file $ext)
+cert=$1
+ext=${cert##*.}
+name=$(basename $cert $ext | sed "s/\.//")
 
 UID=$(id -u)
 
@@ -13,6 +14,6 @@ if [[ $UID -ne 0 ]]; then
 fi
 
 openssl pkcs12 -in $1 -nocerts -out "private/$name.key"
-openssl pkcs12 -in $1 -clcerts -nokeys -out "/etc/iked/certs/$name.crt"
-openssl x509 -pubkey -noout -in "/etc/iked/certs/$name.crt"  > $name.key.pub
+openssl pkcs12 -in $1 -clcerts -nokeys -out "$SSLDIR/$name.crt"
+openssl x509 -pubkey -noout -in "$SSLDIR/certs/$name.crt"  > $name.key.pub
 
