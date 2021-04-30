@@ -2,8 +2,9 @@
 
 SSLDIR="/etc/ssl"
 
-ext=${$1##*.}
-name=$(basename $file $ext)
+cert=$1
+ext=${cert##*.}
+name=$(basename $cert $ext)
 
 UID=$(id -u)
 
