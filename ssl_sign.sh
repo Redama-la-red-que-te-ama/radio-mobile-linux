@@ -2,6 +2,8 @@
 
 SSLDIR="/etc/ssl"
 
+
+
 cert=$1
 ext=${cert##*.}
 name=$(basename $cert $ext | sed "s/\.//")
@@ -14,6 +16,21 @@ if [[ $UID -ne 0 ]]; then
 fi
 
 openssl pkcs12 -in $1 -nocerts -out "private/$name.key"
-openssl pkcs12 -in $1 -clcerts -nokeys -out "$SSLDIR/$name.crt"
-openssl x509 -pubkey -noout -in "$SSLDIR/certs/$name.crt"  > $name.key.pub
+openssl pkcs12 -in $1 -clcerts -nokeys -out "$SSLDIR/certs/$name.crt"
+openssl x509 -pubkey -noout -in "$SSLDIR/certs/$name.crt"  > $name.pub
+
+document=
+while [ -z $document ]
+do
+	echo -n "Type filename of the archive to sign with $1 "
+	read document
+	if [[ -e $document ]]; then
+		openssl dgst -sha512 -sign ${name.pub} -out ${document}.sha512 ${document}
+	
+	else
+		echo "file not found \n"
+		exit 1
+	fi
+	
+done
 
