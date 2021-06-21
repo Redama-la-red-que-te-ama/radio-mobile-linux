@@ -402,7 +402,31 @@ En mi caso soy un autónomo por lo cual tengo que preocuparme de anexar a mi pro
 
 Subrayados los servicios que mi proyecto del nombre comercial  "[Redama - la red que te ama.](https://redama.es/)" piensa brindar en esta primera fase de diseño. En un segundo tiempo a través de una ampliación que estudiaremos más adelante incluyéremos los productos de telefonía sobre ip.  
 
-​	
+#### Acceso a infraestructuras nacionales de alquiler de espacio en torres de telecomunicaciones.	
+
+![Cellnex](https://redama.es/Imagenes/montgros_cellnex.jpg)
+
+Una vez que tengamos el proyecto aprobado por parte de la comisión de mercado de telecomunicaciones nuestro sucesivo paso es obtener un permiso y contrato de explotación de la torre de telecomunicaciones que pensamos utilizar.
+
+En España el mercado es subdividido entra varios proveedores, los más importantes:
+
+- [Cellnex Telecom](https://es.wikipedia.org/wiki/Cellnex_Telecom)
+- [Axion Infraestructuras](https://www.axion.es/)
+
+Después hay varios de menor tamaño que podemos encontrar agrupados en diferentes asociaciones, entra las cuales:
+
+- [Comunidad Unired &#8211; Web de la asociación de difusión española](https://www.uniredasociacion.es/)
+  - [AST - Aragonesa de servicios telemáticos.](https://ast.aragon.es/) 
+  - [IBETEC - Entidad Pública Empresarial de Telecomunicaciones y Innovación de las Illes Balears](http://www.caib.es/sites/M1311251117321911659239/ca/portada-63318/)
+  - [Itelazpi | Difusio Arduratsua](http://www.itelazpi.eus/eu/)
+  - [Nasertic - Navarra de Servicios y Tecnologías](https://www.nasertic.es/es)
+  - [Telecomclm - Tu operadora regional de telecomunicaciones](https://telecomclm.net/)
+  - [Retegal](https://www.retegal.gal/gl)
+  - [Operador de telecomunicaciones | Istec](https://www.istecdigital.es/)
+
+Conseguir un contrato no es nada del otro mundo, llevar con vosotros el proyecto aprobado y contactar con el departamento comercial de la empresa que brinda servicio desde la torre de vuestro interés. 
+
+Un vez en comunicaciones con el proveedor pedir el `kml` que abarca todas las instalaciones para posibles ampliaciones o proyectos puntuales. Utilizando el fichero podéis hacer estudios de cobertura exactos con nuestra herramienta radio mobile.
 
 Gracias por tu tiempo,
 

@@ -25,7 +25,7 @@ do
 	echo -n "Type filename of the archive to sign with $1 "
 	read document
 	if [[ -e $document ]]; then
-		openssl dgst -sha512 -sign ${name.pub} -out ${document}.sha512 ${document}
+		openssl dgst -sha512 -sign "private/$name.key" -out ${document}.sha512 ${document}
 	
 	else
 		echo "file not found \n"
