@@ -404,7 +404,7 @@ Subrayados los servicios que mi proyecto del nombre comercial  "[Redama - la red
 
 #### Acceso a infraestructuras nacionales de alquiler de espacio en torres de telecomunicaciones.	
 
-![Cellnex](https://redama.es/Imagenes/montgros_cellnex.jpg)
+![Cellnex](http://redama.es/Imagenes/montgros_cellnex.jpg)
 
 Una vez que tengamos el proyecto aprobado por parte de la comisión de mercado de telecomunicaciones nuestro sucesivo paso es obtener un permiso y contrato de explotación de la torre de telecomunicaciones que pensamos utilizar.
 
@@ -432,9 +432,14 @@ Un vez en comunicaciones con el proveedor pedir el `kml` que abarca todas las in
 
 ![Llaves Locken](https://cyberlock.com/wp-content/uploads/2018/01/CK-BLUE2.jpg)
 
-Las infraestructuras nacionales están protegidas con sistemas de acceso digital protegidas por llaves de seguridad con permisos temporales de acceso previa autorización por el departamento de gestión de la empresa.
+Las infraestructuras nacionales están protegidas con sistemas de acceso digital por parte de llaves de seguridad con permisos temporales de acceso previa autorización de el departamento de gestión de la empresa.
 
 Varios los sistemas que se encuentran en dichas instalaciones, los más importantes:
+
+![Cilindro locken](https://jpmugo.files.wordpress.com/2010/03/p_2048_1536_538926c0-0022-4a96-880f-24789ea249c6.jpeg?w=640)
+
+- Herraduras inteligentes.
+- Cilindros huecos donde se colocan otras llaves de candados que pertenecen a la misma instalación.
 
 
 
