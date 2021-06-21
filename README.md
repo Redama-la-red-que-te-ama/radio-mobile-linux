@@ -447,6 +447,26 @@ Las llaves de seguridad disponibles ahora mismo permiten de cargar permisos de f
 
 ![Real decretos](https://confilegal.com/wp-content/uploads/2021/03/boe-01.jpg)
 
+Con el fin de ejecutar los trabajos de montaje en torre de manera más segura posible, recordaros que la vida es una, las leyes españolas y los real decretos acerca de prevención de riesgo laborales y trabajos en altura prevén la obligación de pasar unos exámenes tanto teóricos cuanto prácticos acerca de las medidas adecuadas y las herramientas necesarias para que no tengamos ningún tipo de susto para portar a fin nuestro esfuerzo para ser así operadores homologados y en toda regla. Todo un éxito! 
+
+<u>**[Ley 31/05](https://www.boe.es/buscar/pdf/1995/BOE-A-1995-24292-consolidado.pdf) de prevención de riesgos laborales.**</u>
+
+Analizamos el articulo 14 que prevé el derecho de los trabajadores a una protección eficaz en materia de seguridad y salud, mientras que por los empresarios el deber de protección eficaz en materia de prevención de los trabajadores frente a los riesgos derivados del trabajo. El empresario deberá garantizar la seguridad y salud de los trabajadores a su servicio en todos los aspectos relacionados con el trabajo.
+
+Entrando más en detalles se desglosa que el trabajador deberá:
+
+- Velar, según sus posibilidades, por su seguridad y salud, y por la de aquellas otras personas a las que pueda afectar su actividad profesional.
+- Ser informado y formado.
+- Ser consultado y participar en las decisiones relativas a la prevención.
+- Interrumpir la actividad en caso de riesgo grave o inminente.
+- Recibir una vigilancia periódica de su estado de salud.
+- Utilizar correctamente máquinas, aparatos, herramientas, sustancias peligrosas y equipos de transporte.
+- Utilizar correctamente los equipos de protección individual.
+- Usar correctamente y no poner fuera de funcionamiento los dispositivos de seguridad de las máquinas, aparatos, herramientas, instalaciones, etc.
+- Informar al Superior y a los trabajadores designados en las actividades preventivas, de situaciones que entrañen un riesgo para la seguridad y salud.
+- Contribuir al cumplimiento de las obligaciones para una protección eficaz en materia de seguridad y salud.
+- Cooperar con el empresario y los trabajadores designados en las actividades preventivas, para que estos puedan garantizar unas condiciones de trabajo seguras.
+
 
 
 Gracias por tu tiempo,
