@@ -428,6 +428,16 @@ Conseguir un contrato no es nada del otro mundo, llevar con vosotros el proyecto
 
 Un vez en comunicaciones con el proveedor pedir el `kml` que abarca todas las instalaciones para posibles ampliaciones o proyectos puntuales. Utilizando el fichero podéis hacer estudios de cobertura exactos con nuestra herramienta radio mobile.
 
+#### Llaves de acceso
+
+![Llaves Locken](https://cyberlock.com/wp-content/uploads/2018/01/CK-BLUE2.jpg)
+
+Las infraestructuras nacionales están protegidas con sistemas de acceso digital protegidas por llaves de seguridad con permisos temporales de acceso previa autorización por el departamento de gestión de la empresa.
+
+Varios los sistemas que se encuentran en dichas instalaciones, los más importantes:
+
+
+
 Gracias por tu tiempo,
 
 Riccardo `<taglio>` Giuntoli.
