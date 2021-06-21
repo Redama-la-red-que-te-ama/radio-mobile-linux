@@ -441,6 +441,12 @@ Varios los sistemas que se encuentran en dichas instalaciones, los más importan
 - Herraduras inteligentes.
 - Cilindros huecos donde se colocan otras llaves de candados que pertenecen a la misma instalación.
 
+Las llaves de seguridad disponibles ahora mismo permiten de cargar permisos de forma autónoma por parte del contratista ahorrando el viaje en las instalaciones del proveedor con el fin de hacer esta simple, pero no tanto, operación que voy a detallar en seguida:
+
+#### Leyes y Real decretos en material de seguridad de trabajos en altura y prevención de riesgos. 
+
+![Real decretos](https://confilegal.com/wp-content/uploads/2021/03/boe-01.jpg)
+
 
 
 Gracias por tu tiempo,
