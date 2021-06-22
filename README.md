@@ -475,6 +475,10 @@ El sistema constará como mínimo de dos cuerdas con sujeción independiente, un
 
 A todo trabajador la empresa tiene que brindar unos arneses adecuados que deberán utilizar y conectar a la cuerda de seguridad o sistemas anti caídas.  
 
+La cuerda de seguridad estará equipada con un dispositivo móvil contra caídas que siga los desplazamientos trabajador:
+
+
+
 Gracias por tu tiempo,
 
 Riccardo `<taglio>` Giuntoli.
