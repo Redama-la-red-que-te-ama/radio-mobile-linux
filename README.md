@@ -404,7 +404,7 @@ Subrayados los servicios que mi proyecto del nombre comercial  "[Redama - la red
 
 #### Acceso a infraestructuras nacionales de alquiler de espacio en torres de telecomunicaciones.	
 
-![Cellnex](http://redama.es/Imagenes/montgros_cellnex.jpg)
+![Cellnex](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/imagenes/montgros_cellnex.jpg)
 
 Una vez que tengamos el proyecto aprobado por parte de la comisión de mercado de telecomunicaciones nuestro sucesivo paso es obtener un permiso y contrato de explotación de la torre de telecomunicaciones que pensamos utilizar.
 
@@ -476,6 +476,8 @@ El sistema constará como mínimo de dos cuerdas con sujeción independiente, un
 A todo trabajador la empresa tiene que brindar unos arneses adecuados que deberán utilizar y conectar a la cuerda de seguridad o sistemas anti caídas.  
 
 La cuerda de seguridad estará equipada con un dispositivo móvil contra caídas que siga los desplazamientos trabajador:
+
+![](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/imagenes/uneen355.jpg)
 
 
 
