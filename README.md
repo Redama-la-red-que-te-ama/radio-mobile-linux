@@ -467,7 +467,13 @@ Entrando más en detalles se desglosa que el trabajador deberá:
 - Contribuir al cumplimiento de las obligaciones para una protección eficaz en materia de seguridad y salud.
 - Cooperar con el empresario y los trabajadores designados en las actividades preventivas, para que estos puedan garantizar unas condiciones de trabajo seguras.
 
+**<u>[Real Decreto 2177/044](https://www.boe.es/boe/dias/2004/11/13/pdfs/A37486-37489.pdf)</u>**
 
+Se trata de disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo en materia de trabajos temporales en altura. De disposiciones especificas sobre la utilización de las técnicas de acceso y de posicionamiento mediante cuerdas que cumplirá las siguientes condiciones:
+
+El sistema constará como mínimo de dos cuerdas con sujeción independiente, una como medio de acceso, de descenso y de apoyo que se puede identificar como cuerda de trabajo y la otra como medio de emergencia conocida como cuerda auxiliar de seguridad.
+
+A todo trabajador la empresa tiene que brindar unos arneses adecuados que deberán utilizar y conectar a la cuerda de seguridad o sistemas anti caídas.  
 
 Gracias por tu tiempo,
 
