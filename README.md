@@ -479,7 +479,38 @@ La cuerda de seguridad estará equipada con un dispositivo móvil contra caídas
 
 ![](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/imagenes/uneen355.jpg)
 
+La cuerda de trabajo estará equipada con un mecanismo seguro de ascenso y descenso y dispondrá de un sistema de bloque automático con el fin de impedir la caída.
 
+![](https://github.com/Redama-la-red-que-te-ama/radio-mobile-linux/raw/main/imagenes/linea-vida-vertical-linostop.jpg)
+
+Las herramientas que deba utilizar el trabajador deberán estar sujetos al arnés o al asiento del trabajador o por otros medios adecuados.
+
+El trabajo se tendrá que planificar de manera que se pueda socorrer inmediatamente al trabajador.
+
+Se tendrá que impartir a los trabajadores formación adecuada y específica:
+
+- Técnicas para la progresión mediante cuerdas y sobre estructuras.
+- Sistemas de sujeción
+- Sistemas de anticaídas.
+- Cuidado, mantenimiento y verificación del equipo de trabajo y de seguridad.
+- Técnicas de salvamento de personas accidentadas en suspensión.
+- Medidas de seguridad ante condiciones meteorológicas que puedan afectar a la seguridad.
+- Técnicas seguras de manipulación de cargas en altura.
+
+<u>**Normativas básicas de seguridad**</u>
+
+- Estar informados de los riesgos de accidentes y estas formados para su prevención que en el caso de los trabajos en altura son el riesgo de caída del trabajador y el riesgo de caída de objetos.
+- Respectar y cumplir todas las normas de seguridad.
+- Utilizar siempre los [equipos de protección individual EPI](https://es.wikipedia.org/wiki/Equipo_de_protecci%C3%B3n_individual).
+
+<u>**EPI's**</u>
+
+- Certificados y homologados.
+- De la justa talla.
+- Herramientas y aparatos bien sujetos.
+- Zona de influencia de caída de objetos señalizada y acordonada con cinta de señalización.
+- Veto de trabajar en dos niveles de altura al mismo tiempo que estén en la misma vertical.
+- 
 
 Gracias por tu tiempo,
 
