@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<GroundOverlay><name>terrassa_cobertura_real.bmp</name><color>88ffffff</color><Icon>
+<href>terrassa_cobertura_real.bmp</href>
+<viewBoundScale>0.75</viewBoundScale></Icon><LatLonBox>
+<north> 41.78622</north>
+<south> 41.42626</south>
+<east> 2.280887</east>
+<west> 1.638813</west>
+</LatLonBox></GroundOverlay></kml>
